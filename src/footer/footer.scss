@@ -1,0 +1,22 @@
+@import "../styles/amountStyless.scss";
+@import "../App.scss";
+
+.footer {
+  @include center;
+  position: relative;
+  top: 45rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  border-top: 1px solid $extralight-gray;
+  @include md {
+    @include center-mobile;
+  }
+  @include sm {
+    @include center-mobile;
+    top: 27rem;
+  }
+  span {
+    @include textNormal;
+    @include text18;
+  }
+}

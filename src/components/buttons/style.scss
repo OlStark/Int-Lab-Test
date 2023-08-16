@@ -1,0 +1,10 @@
+@import "../../styles/amountStyless.scss";
+
+.button {
+  @include button;
+}
+
+h5 {
+  @include headline;
+  @include headline5;
+}
