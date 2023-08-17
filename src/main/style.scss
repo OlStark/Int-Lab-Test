@@ -175,9 +175,10 @@
 
   .reviews {
     width: 100vw;
+    padding-top: 2.5rem;
     margin-bottom: 2.81rem;
     background-color: $extralight-gray;
-    height: 35rem;
+    height: 34rem;
     .reviews__title {
       h2 {
         @include headline;
