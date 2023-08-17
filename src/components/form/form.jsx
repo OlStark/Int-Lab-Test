@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Button from "../buttons/button";
 import Checkbox from "../checkbox/checkbox";
-import FormInput from "./FormInput";
 import "./formInput.scss";
+import InputMask from "react-input-mask";
 
 const Form = () => {
   const [focusOnName, setFocusOnName] = useState(false);
@@ -95,18 +95,19 @@ const Form = () => {
           onFocus={() => setFocusOnPhone(true)}
           onBlur={() => setFocusOnPhone(false)}>
           <label>Телефон</label>
-          <input
+          <InputMask
+            mask={"+7 (999) - 999 - 999"}
             onChange={(e) => phone.onChange(e)}
-            onBlur={(e) => phone.onBlur(e)}
-            value={phone.value}
-            name="phone"
-            type="number"
-            placeholder="8-999-999-99-99"
-          />
+            onBlur={(e) => phone.onBlur(e)}>
+            {() => <input type="tel" placeholder="tel" />}
+          </InputMask>
           {phone.isDirty && phone.isLengthError && (
-            <p style={{ color: "red" }} className="phone-error">
-              Некорректный номер телефона
-            </p>
+            <>
+              <p style={{ color: "red" }} className="phone-error-text">
+                Некорректный номер телефона
+              </p>
+              <div className="error-phone-icon"></div>
+            </>
           )}
         </div>
 
