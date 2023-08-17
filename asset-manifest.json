@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Int-Lab-Test/static/css/main.2cf908d4.css",
+    "main.js": "/Int-Lab-Test/static/js/main.ed10551a.js",
+    "static/media/jpg": "/Int-Lab-Test/static/media/001eb356c32ad4981cc30981c06e60b2.adc6593cafa92d42310c.jpg",
+    "static/media/2_1.svg": "/Int-Lab-Test/static/media/2_1.39f6c2717a0c67ee0f8ada7ccddf920d.svg",
+    "static/media/GraphikLCG-Bold.ttf": "/Int-Lab-Test/static/media/GraphikLCG-Bold.768cd7c3be4c3b053725.ttf",
+    "static/media/GraphikLCG-Medium.ttf": "/Int-Lab-Test/static/media/GraphikLCG-Medium.4a5dcaf7fa9bba05febc.ttf",
+    "static/media/2_2.svg": "/Int-Lab-Test/static/media/2_2.6b8f62ebfad1ea89406c80059cc25e0c.svg",
+    "static/media/money-bags.svg": "/Int-Lab-Test/static/media/money-bags.288b63831d437048f3e40687d8e8f11d.svg",
+    "static/media/delivery-truck.svg": "/Int-Lab-Test/static/media/delivery-truck.bffb01e843e9e3aaf9f492b58418c0c9.svg",
+    "static/media/waiting.svg": "/Int-Lab-Test/static/media/waiting.512b20b5d299b7933b7447391878e7ce.svg",
+    "static/media/secure.svg": "/Int-Lab-Test/static/media/secure.67771cc1b323a67f2c8044af06e56065.svg",
+    "static/media/slick.svg": "/Int-Lab-Test/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Int-Lab-Test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Int-Lab-Test/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Int-Lab-Test/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/close.svg": "/Int-Lab-Test/static/media/close.4bab44a3d7775ebd967588033a0c8ff9.svg",
+    "static/media/open.svg": "/Int-Lab-Test/static/media/open.94daeb82eb1887675823094be1312a26.svg",
+    "static/media/fi-sr-angle-left.svg": "/Int-Lab-Test/static/media/fi-sr-angle-left.bc22a6e99b134c28ad37.svg",
+    "static/media/arrow-menu.svg": "/Int-Lab-Test/static/media/arrow-menu.428292451d570b301c97.svg",
+    "index.html": "/Int-Lab-Test/index.html",
+    "static/media/check.svg": "/Int-Lab-Test/static/media/check.420f28e3a918748691e1.svg",
+    "main.2cf908d4.css.map": "/Int-Lab-Test/static/css/main.2cf908d4.css.map",
+    "main.ed10551a.js.map": "/Int-Lab-Test/static/js/main.ed10551a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cf908d4.css",
+    "static/js/main.ed10551a.js"
+  ]
+}
